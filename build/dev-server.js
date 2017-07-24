@@ -8,7 +8,7 @@ var path = require('path');
 var express = require('express');
 var webpack = require('webpack');
 var proxyMiddleware = require('http-proxy-middleware');
-var webpackConfig = require('./webpack.config');
+var webpackConfig = require('../webpack.config');
 
 var port = 8099;
 var autoOpenBrowser = true;
